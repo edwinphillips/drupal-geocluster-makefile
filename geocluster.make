@@ -96,6 +96,9 @@ projects[geocluster][download][revision] = "505fc5c"
 ;; Move geohash to entity presave for better reliability.
 ;; @see https://www.drupal.org/node/2020737
 projects[geocluster][patch][] = https://drupal.org/files/issues/geocluster--geohash-empty-column-data--2020737-8.patch
+;; Solr: Fix notices
+;; @see https://www.drupal.org/node/2369611
+projects[geocluster][patch][] = https://www.drupal.org/files/issues/geocluster-fix-notices-2369611-1.patch
 
 ;;
 ;; Leaflet (display engine)
