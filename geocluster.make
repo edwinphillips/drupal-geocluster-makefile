@@ -104,7 +104,7 @@ projects[geocluster][patch][] = https://www.drupal.org/files/issues/geocluster-f
 ;; Leaflet (display engine)
 ;;
 libraries[leaflet][download][type] = get
-libraries[leaflet][download][url] = http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.1.zip
+libraries[leaflet][download][url] = http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.zip
 libraries[leaflet][directory_name] = leaflet
 libraries[leaflet][destination] = libraries
 
